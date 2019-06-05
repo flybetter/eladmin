@@ -35,6 +35,13 @@
             <version>2.0</version>
         </dependency>
 
+        <dependency>
+            <groupId>me.zhengjie</groupId>
+            <artifactId>eladmin-impala</artifactId>
+            <version>2.0</version>
+        </dependency>
+
+
         <!--jwt-->
         <dependency>
             <groupId>io.jsonwebtoken</groupId>

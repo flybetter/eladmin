@@ -3,3 +3,4 @@
 *.iml
 */target/*
 */*.iml
+eladmin-impala/src/main/java/me/zhengjie/impala_jar
