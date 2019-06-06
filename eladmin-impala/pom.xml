@@ -25,18 +25,14 @@
                     <groupId>org.slf4j</groupId>
                     <artifactId>slf4j-log4j12</artifactId>
                 </exclusion>
+                <exclusion>
+                    <groupId>org.eclipse.jetty.aggregate</groupId>
+                    <artifactId>jetty-all</artifactId>
+                </exclusion>
             </exclusions>
+            <scope>compile</scope>
         </dependency>
 
-        <!--<dependency>-->
-        <!--<groupId>org.springframework.boot</groupId>-->
-        <!--<artifactId>spring-boot-starter-jdbc</artifactId>-->
-        <!--</dependency>-->
-        <dependency>
-            <groupId>me.zhengjie</groupId>
-            <artifactId>eladmin-common</artifactId>
-            <version>2.0</version>
-        </dependency>
 
         <dependency>
             <groupId>com.mchange</groupId>
